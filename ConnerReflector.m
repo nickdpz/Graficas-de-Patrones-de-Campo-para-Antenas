@@ -1,7 +1,7 @@
 clear all;
 close all;
-theta = (0:.02:1)*pi;
-phi   = (0:.02:1)*2*pi;
+theta = (0:.01:1)*pi;
+phi   = (0.5:.01:1.5)*0.5*pi;
 [Theta, Phi] = meshgrid(theta, phi);
 %Cornner Reflector Factor de forma
 Eo=(cos(0.5*pi.*cos(theta)))./sin(theta);
@@ -14,4 +14,5 @@ Y     =  H.*sin(Theta).*sin(Phi);
 Z     =  H.*cos(Theta);
 figure('Color','White')
 surf(X,Y,Z);
-axis equal off;
+view(2);
+axis equal on;
