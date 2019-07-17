@@ -9,6 +9,11 @@ Eb=(cos(0.3472*pi.*cos(Theta))-cos(0.3472*pi))./sin(Theta);
 Ec=(cos(0.2893*pi.*cos(Theta))-cos(0.2893*pi))./sin(Theta);
 Ed=(cos(0.6*pi.*cos(Theta))-cos(0.6*pi))./sin(Theta);
 Ee=(cos(0.5*pi.*cos(theta)))./sin(theta);
+% Ea=1;
+% Eb=1;
+% Ec=1;
+% Ed=1;
+% Ee=1;
 H= abs(Ea.*exp(i*(0.5*pi).*sin(Theta).*cos(Phi)+(i*0.5*pi)+(i*pi))...
        +Eb.*exp(i*(0.916*pi).*sin(Theta).*cos(Phi)+(0.916*pi*i))...
        +Ec.*exp(i*(1.26*pi).*sin(Theta).*cos(Phi)+(i*1.26*pi)+(i*pi))...
@@ -17,5 +22,7 @@ H= abs(Ea.*exp(i*(0.5*pi).*sin(Theta).*cos(Phi)+(i*0.5*pi)+(i*pi))...
 X     =  H.*sin(Theta).*cos(Phi);
 Y     =  H.*sin(Theta).*sin(Phi);
 Z     =  H.*cos(Theta);
+figure('Color','White')
 surf(X,Y,Z);
-axis equal off;
+view(3);
+axis equal on;

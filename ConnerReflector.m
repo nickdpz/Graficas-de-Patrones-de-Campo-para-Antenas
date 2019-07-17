@@ -14,5 +14,5 @@ Y     =  H.*sin(Theta).*sin(Phi);
 Z     =  H.*cos(Theta);
 figure('Color','White')
 surf(X,Y,Z);
-view(2);
+view(3);
 axis equal on;

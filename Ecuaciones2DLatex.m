@@ -1,0 +1,17 @@
+%E= \frac{cos(4\cdot\pi\cdot cos(\theta))-1)}{sin(\theta)}; % 4 landa
+%E= \frac{cos(2\cdot\pi\cdot cos(\theta))-1)}{sin(\theta)};%2 landa
+%E=  \frac{cos(1.5\cdot\pi\cdot cos(\theta))}{sin(\theta)};% 1.5 landa
+%E= \frac{cos(\pi\cdot cos(\theta))+1)}{sin(\theta)};%landa
+%E=  \frac{cos(0.5\cdot\pi\cdot cos(\theta))}{sin(\theta)};% 0.5 landa
+%E=  2\cdot cos(0.5\cdot\pi\cdot (cos(\theta));%dos antenas desfase electEico0
+%E=  2\cdot cos(0.5\cdot\pi\cdot (cos(\theta)+1));%dos antenas desfase electEico \pi
+%E=  2\cdot cos(\pi\cdot cos(\theta))+1);%tEes antenas sin desfase electEico
+%E=  2\cdot e0\cdot cos(\pi\cdot cos(\theta))+e0;%tEes antenas
+%E=  2\cdot(cos(0.5\cdot\pi\cdot cos(\theta))+cos(1.5\cdot\pi\cdot cos(\theta)));%cuatEo antenas
+%E=  4\cdot(cos(0.5\cdot\pi\cdot cos(\theta))^2);%tEes antenas binomial
+%E= 8\cdot(cos(0.5\cdot\pi\cdot cos(\theta))^3);%cuatEo antenasbinimial
+%E =  e^{-1i\cdot\pi\cdot cos(\frac{\pi}{2}-\theta)} + e^{1i\cdot\pi\cdot\sqrt{2}\cdot cos(\frac{\pi}{4}+\theta)};%%% TEiangulo Eectangulo %%%%%
+%E =  e^{-1i\cdot\pi\cdot0.5\cdot\sqrt{2}\cdot cos(\frac{\pi}{4}-\theta)}+e^{-1i\cdot\pi\cdot 0.5\cdot\sqrt{2}\cdot cos(\frac{3\cdot\pi}{4}-\theta)};%%% TEiangulo Eectangulo desviado punto de fase %%%%%
+%E =  e^{-1i\cdot\pi\cdot cos(0.25\cdot\pi-\theta)}+e^{-1i\cdot0.765\cdot\pi\cdot cos(0.25\cdot\pi+\theta)};% TEapecio tEes antenas
+%E=e^{1i\cdot(\sqrt{3}/3\cdot\pi\cdot cos(0.5\cdot\pi-\theta)}+e^{-1i\cdot(\sqrt{3}/3\cdot\pi\cdot cos(\frac{\pi}{6}-\theta)}+e^{1i\cdot(\sqrt{3}/3\cdot\pi\cdot cos(\frac{\pi}{6}+\theta)};% Triangulo equilatero
+%E =   20\cdot sin\left ( \frac{20}{2}\cdot \pi\cdot cos(\theta)\right ) \frac{20}{2}\cdot \pi\cdot cos(\theta);% 20 antenas segidas
