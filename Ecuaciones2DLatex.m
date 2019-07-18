@@ -14,4 +14,6 @@
 %E =  e^{-1i\cdot\pi\cdot0.5\cdot\sqrt{2}\cdot cos(\frac{\pi}{4}-\theta)}+e^{-1i\cdot\pi\cdot 0.5\cdot\sqrt{2}\cdot cos(\frac{3\cdot\pi}{4}-\theta)};%%% TEiangulo Eectangulo desviado punto de fase %%%%%
 %E =  e^{-1i\cdot\pi\cdot cos(0.25\cdot\pi-\theta)}+e^{-1i\cdot0.765\cdot\pi\cdot cos(0.25\cdot\pi+\theta)};% TEapecio tEes antenas
 %E=e^{1i\cdot(\sqrt{3}/3\cdot\pi\cdot cos(0.5\cdot\pi-\theta)}+e^{-1i\cdot(\sqrt{3}/3\cdot\pi\cdot cos(\frac{\pi}{6}-\theta)}+e^{1i\cdot(\sqrt{3}/3\cdot\pi\cdot cos(\frac{\pi}{6}+\theta)};% Triangulo equilatero
-%E =   20\cdot sin\left ( \frac{20}{2}\cdot \pi\cdot cos(\theta)\right ) \frac{20}{2}\cdot \pi\cdot cos(\theta);% 20 antenas segidas
+%E =   \frac{20\cdot sin\left ( \frac{20}{2}\cdot \pi\cdot cos(\theta)\right )}{ \frac{20}{2}\cdot \pi\cdot cos(\theta)}
+%E =   \frac{20\cdot sin\left ( \frac{20}{2}\cdot \pi\cdot cos(\theta)+ 10 \cdot \pi \right )}{ \frac{20}{2}\cdot \pi\cdot cos(\theta)+10 \cdot \pi}
+%E =   \frac{20\cdot sin\left ( \frac{20}{2}\cdot \pi\cdot cos(\theta)+ 5 \cdot \pi \right )}{ \frac{20}{2}\cdot \pi\cdot cos(\theta)+5 \cdot \pi}
